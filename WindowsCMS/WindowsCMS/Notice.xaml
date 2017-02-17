@@ -1,0 +1,21 @@
+﻿<Window x:Class="WindowsCMS.Notice" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" AllowsTransparency="True" OpacityMask="White"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStyle="None" Background="Transparent"
+        Title="新通知" Height="200" Width="400" MaxHeight="200" MaxWidth="400" MinHeight="200" MinWidth="400" Topmost="True" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Border CornerRadius="5" BorderBrush="Gray" BorderThickness="2" Background="White">
+        <Grid Background="Transparent">
+        <StackPanel>
+                <Label Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">你有新的通知！</Label>
+            <Label Name="title" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold">通知标题</Label>
+            <TextBlock Name="content" Height="80" Margin="20,5,20,0" TextWrapping="Wrap">通知内容通知内容
+            </TextBlock>
+           
+        </StackPanel>
+            <Button Width="20" Margin="3" Height="20" Name="btn_cloase" VerticalAlignment="Top" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Click="btn_cloase_Click">X</Button>
+            <WrapPanel VerticalAlignment="Bottom">
+                <Label  Margin="20,0,20,10" FontStyle="Italic">发布时间:</Label>
+            <Label FontStyle="Italic" Name="time">发布时间:</Label>
+        </WrapPanel>
+    </Grid>
+    </Border>
+</Window>

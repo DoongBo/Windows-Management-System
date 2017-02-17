@@ -1,0 +1,41 @@
+﻿<Window x:Class="WindowsCMS.SettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SettingWindow" Height="500" Width="850" FontSize="18px"  Foreground="Black" WindowStyle="ToolWindow" Topmost="True" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Image Source="Image/backjpeg.jpg"/>
+        <StackPanel Name="LogPanel" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label FontSize="20" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,-30,0,20" >管理员配置</Label>
+            <Border BorderBrush="White" BorderThickness="1" CornerRadius="10">
+            <WrapPanel>
+                <Label Margin="15,0,0,0" Foreground="White"  Height="30"  VerticalContentAlignment="Center">管理员账户：</Label>
+                <TextBox Height="30" Name="txtbox_account" BorderThickness="0,0,0,1" Padding="10px,2px" Width="180" KeyDown="txtbox_account_KeyDown" GotFocus="txtbox_account_GotFocus" VerticalContentAlignment="Center" Template="{StaticResource CornerTextBox}" ></TextBox>
+            </WrapPanel>
+            </Border>
+            <Border  Margin="0,20,0,0" BorderBrush="White" BorderThickness="1" CornerRadius="10">
+                <WrapPanel>
+                    <Label  Margin="15,0,0,0" Foreground="White"  Height="30"  VerticalContentAlignment="Center">管理员密码：</Label>
+                    <PasswordBox Height="30" Name="txtbox_pass" Padding="10px,2px" Width="180" KeyDown="txtbox_pass_KeyDown" VerticalContentAlignment="Center" Template="{StaticResource CornerPasswordBox}"></PasswordBox>
+                </WrapPanel>
+            </Border>
+            <Button  Style="{StaticResource ButtonStyle}" Name="bt_sign" Click="bt_sign_Click" Background="AliceBlue" Height="30" Margin="0,20,0,0" Width="180">登录</Button>
+        </StackPanel>
+        <StackPanel Name="SettingPanel" VerticalAlignment="Center" HorizontalAlignment="Center"  Visibility="Collapsed" >
+            <Label FontSize="20" Foreground="White" HorizontalAlignment="Center"  FontWeight="Bold"  Margin="0,-30,0,20" >绑定机号与机房名</Label>
+            <WrapPanel>
+                <Label Foreground="White">本机房名：</Label>
+                <TextBox Height="30" Name="txtbox_roomname"  TextChanged="txtbox_roomname_TextChanged" Padding="10px,2px" Width="200" VerticalContentAlignment="Center" Template="{StaticResource CornerTextBox}" KeyUp="txtbox_roomname_KeyUp"></TextBox>
+            </WrapPanel>
+            <WrapPanel Margin="0,20,0,0">
+                <Label Foreground="White">本机机号：</Label>
+                <TextBox Height="30" Name="txtbox_pcnum"  Padding="10px,2px" Width="200" VerticalContentAlignment="Center" Template="{StaticResource CornerTextBox}" KeyUp="txtbox_pcnum_KeyUp" ></TextBox>
+            </WrapPanel>
+            <WrapPanel Margin="0,20,0,0">
+                <Label Foreground="White">本机Mac：</Label>
+                <Label Foreground="White" Name="txtmac">本机Mac地址</Label>
+            </WrapPanel>
+            <Button  Style="{StaticResource ButtonStyle}" Name="bt_setting" Click="bt_setting_Click" Background="AliceBlue" Height="30" Margin="0,20,0,0" Width="180">保存</Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>

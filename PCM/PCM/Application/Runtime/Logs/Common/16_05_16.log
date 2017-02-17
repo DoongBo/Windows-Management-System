@@ -1,0 +1,121 @@
+[ 2016-05-16T22:19:58+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__JS__/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036005s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:19:58+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__CSS__/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036005s ]
+ERR: 无法加载模块:Application
+
+
+[ 2016-05-16T22:19:59+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__JS__/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:19:59+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:43+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__CSS__/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:43+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__JS__/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:43+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__JS__/jquery-2.2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:43+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:43+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/__JS__/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:43+08:00 ] 127.0.0.1 /djb/Application/Home/View/Index/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Application
+
+[ 2016-05-16T22:20:52+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:23:36+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:23:36+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:23:38+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:23:38+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:24:11+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:24:12+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:24:13+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:24:13+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-05-16T22:35:14+08:00 ] 127.0.0.1 /djb/img/a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Img
+

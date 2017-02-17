@@ -1,0 +1,25 @@
+﻿<Window x:Class="WindowsCMS.CourseChose"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" AllowsTransparency="True" OpacityMask="White"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStyle="None" Topmost="True" Background="Transparent"
+        Title="CourseChose"  Width="300" Height="400" MinHeight="500" MaxHeight="500" MinWidth="300" MaxWidth="400" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Border CornerRadius="5" BorderBrush="Gray" BorderThickness="2" Background="White">
+        <Grid>
+            <StackPanel>
+                <Label FontSize="18" HorizontalAlignment="Center" Margin="0,10,0,10">请选择课内实验名称</Label>
+                <DataGrid Name="datagrid" Width="300" Height="500" AutoGenerateColumns="False" AlternatingRowBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" IsReadOnly="True" CanUserAddRows="False" AllowDrop="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="实验名称" Width="*" Binding="{Binding Course_Name}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="授课教师" Width="*" Binding="{Binding Course_Teacher}"></DataGridTextColumn>
+                        <DataGridTemplateColumn Header="选择课程" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Click="Button_Click" Background="Transparent" BorderThickness="0,0,0,1">选择>></Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

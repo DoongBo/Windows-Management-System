@@ -1,0 +1,1049 @@
+[ 2016-11-30T12:46:20+08:00 ] 101.226.65.104 /PCM/PUBLIC/UPLOAD/1.DOC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T12:46:32+08:00 ] 119.5.1.23 /PCM/PUBLIC/UPLOAD/1.DOC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T12:52:18+08:00 ] 192.168.226.53 /PCM/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-30T12:52:28+08:00 ] 61.151.218.119 /PCM/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-11-30T12:52:30+08:00 ] 192.168.226.53 /PCM/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `t_manager` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_manager` WHERE `Mana_Num` = '2014309010124' AND `Mana_PSD` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-11-30T12:52:30+08:00 ] 192.168.226.53 /PCM/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-11-30T12:52:33+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-11-30T12:52:34+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-11-30T12:52:43+08:00 ] 61.151.226.16 /PCM/INDEX.PHP/WJGL/FILES.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:INDEX.PHP
+
+[ 2016-11-30T12:52:46+08:00 ] 180.153.201.15 /PCM/PUBLIC/UPLOAD/1611260858034351.DOC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T12:55:28+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] finfo_file() [<a href='function.finfo-file'>function.finfo-file</a>]: Empty filename or path /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+
+[ 2016-11-30T12:55:32+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-11-30T12:56:00+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: INSERT INTO `t_file` (`File_Name`,`File_Path`,`File_Ownner`,`File_Time`,`File_Other`) VALUES ('钟玉泉答案.pdf','1611301255593571.pdf','王涛','2016-11-30  12:56:00','pdf测试') [ RunTime:0.0136s ]
+
+[ 2016-11-30T12:56:00+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files/info/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-30T12:56:00+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-11-30T12:58:44+08:00 ] 192.168.226.53 /PCM/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-30T12:58:48+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-30T12:58:49+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 1 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 2 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-11-30T12:58:54+08:00 ] 180.153.201.15 /PCM/INDEX.PHP/ADMIN/INDEX.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载控制器:INDEX.PHP
+
+[ 2016-11-30T12:59:15+08:00 ] 192.168.226.53 /PCM/Public/Upload/2016/11/30%2012:56:00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T12:59:36+08:00 ] 192.168.226.53 /PCM/Public/Upload/%E9%92%9F%E7%8E%89%E6%B3%89%E7%AD%94%E6%A1%88.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:00:01+08:00 ] 192.168.226.53 /PCM/Public/Upload/%E9%92%9F%E7%8E%89%E6%B3%89%E7%AD%94%E6%A1%88.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:00:04+08:00 ] 192.168.226.53 /PCM/Public/Upload/%E9%92%9F%E7%8E%89%E6%B3%89%E7%AD%94%E6%A1%88.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:00:08+08:00 ] 192.168.226.53 /PCM/Public/Upload/%E9%92%9F%E7%8E%89%E6%B3%89%E7%AD%94%E6%A1%88.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:00:15+08:00 ] 192.168.226.53 /PCM/Public/Upload/%E9%92%9F%E7%8E%89%E6%B3%89%E7%AD%94%E6%A1%88.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:01:09+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: INSERT INTO `t_file` (`File_Name`,`File_Path`,`File_Ownner`,`File_Time`,`File_Other`) VALUES ('java第五章作业10-28.docx','1611300101093872.docx','王涛','2016-11-30  13:01:09','') [ RunTime:0.0030s ]
+
+[ 2016-11-30T13:01:09+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files/info/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-11-30T13:01:10+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 2 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-11-30T13:01:15+08:00 ] 192.168.226.53 /PCM/Public/Upload/java%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%BD%9C%E4%B8%9A10-28.docx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:01:35+08:00 ] 192.168.226.53 /PCM/Public/Upload/java%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%BD%9C%E4%B8%9A10-28.docx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:01:56+08:00 ] 192.168.226.53 /PCM/Public/Upload/java%E7%AC%AC%E4%BA%94%E7%AB%A0%E4%BD%9C%E4%B8%9A10-28.docx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:04:08+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0010s ]
+SQL: INSERT INTO `t_file` (`File_Name`,`File_Path`,`File_Ownner`,`File_Time`,`File_Other`) VALUES ('新建 Microsoft Office Word 文档.doc','1611300104087668.doc','王涛','2016-11-30  13:04:08','') [ RunTime:0.0013s ]
+
+[ 2016-11-30T13:04:08+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files/info/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-11-30T13:04:08+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-11-30T13:04:23+08:00 ] 192.168.226.53 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:04:45+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: DELETE FROM `t_file` WHERE ( File_Id='9' ) [ RunTime:0.0265s ]
+
+[ 2016-11-30T13:04:45+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 2 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-11-30T13:05:00+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: INSERT INTO `t_file` (`File_Name`,`File_Path`,`File_Ownner`,`File_Time`,`File_Other`) VALUES ('新建 Microsoft Office Word 文档.doc','1611300105002746.doc','王涛','2016-11-30  13:05:00','') [ RunTime:0.0012s ]
+
+[ 2016-11-30T13:05:00+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files/info/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-11-30T13:05:01+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-11-30T13:05:04+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: DELETE FROM `t_file` WHERE ( File_Id='10' ) [ RunTime:0.0012s ]
+
+[ 2016-11-30T13:05:04+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 2 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-11-30T13:05:21+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: INSERT INTO `t_file` (`File_Name`,`File_Path`,`File_Ownner`,`File_Time`,`File_Other`) VALUES ('123.doc','1611300105217419.doc','王涛','2016-11-30  13:05:21','') [ RunTime:0.0013s ]
+
+[ 2016-11-30T13:05:21+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files/info/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-11-30T13:05:22+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-11-30T13:05:27+08:00 ] 192.168.226.53 /PCM/Public/Upload/123.doc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:26+08:00 ] 220.181.132.216 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:36+08:00 ] 101.199.108.50 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:37+08:00 ] 171.8.167.75 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:40+08:00 ] 182.118.20.151 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:40+08:00 ] 171.13.14.149 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:42+08:00 ] 182.118.20.151 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:06:43+08:00 ] 171.13.14.134 /PCM/Public/Upload/%E6%96%B0%E5%BB%BA%20Microsoft%20Office
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-11-30T13:07:25+08:00 ] 101.226.79.182 /PCM/PUBLIC/UPLOAD/1611300105217419.DOC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T13:07:46+08:00 ] 27.29.146.207 /PCM/PUBLIC/UPLOAD/1611300105217419.DOC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T13:08:23+08:00 ] 101.226.33.225 /PCM/PUBLIC/UPLOAD/1611300105217419.DOC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T13:08:25+08:00 ] 101.226.33.223 /PCM/PUBLIC/UPLOAD/1611301255593571.PDF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:PUBLIC
+
+[ 2016-11-30T19:50:10+08:00 ] 192.168.226.53 /PCM/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-11-30T19:50:21+08:00 ] 192.168.226.53 /PCM/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `t_manager` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_manager` WHERE `Mana_Num` = '2014309010124' AND `Mana_PSD` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-11-30T19:50:21+08:00 ] 192.168.226.53 /PCM/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-11-30T19:50:25+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-30T19:50:26+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 3 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-11-30T19:50:45+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant ymdhis - assumed 'ymdhis' /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 35 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/htdocs/PCM/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: INSERT INTO `t_file` (`File_Name`,`File_Path`,`File_Ownner`,`File_Time`,`File_Other`) VALUES ('course.jpg','1611300750452707.jpg','王涛','2016-11-30  19:50:45','') [ RunTime:0.0011s ]
+
+[ 2016-11-30T19:50:45+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/files/info/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-11-30T19:50:46+08:00 ] 192.168.226.53 /PCM/index.php/WJGL/getdownload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `t_file` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_file` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_file` ORDER BY File_Time desc LIMIT 0,20   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 4 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 5 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 6 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 7 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 8 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 9 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 10 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 11 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 12 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 13 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 14 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 15 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 16 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 17 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 18 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+NOTIC: [8] Undefined index: 19 /opt/lampp/htdocs/PCM/Application/Admin/Controller/WJGLController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+

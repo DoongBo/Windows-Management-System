@@ -1,0 +1,13 @@
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\bin\Debug\ImportanCheck.exe.config
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\bin\Debug\ImportanCheck.exe
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\bin\Debug\ImportanCheck.pdb
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck.csprojResolveAssemblyReference.cache
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\MainWindow.baml
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\MainWindow.g.cs
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\App.g.cs
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck_MarkupCompile.cache
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck.g.resources
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck.Properties.Resources.resources
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck.csproj.GenerateResource.Cache
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck.exe
+E:\GitHub\PCsManager\WindowsCMS\ImportanCheck\obj\Debug\ImportanCheck.pdb

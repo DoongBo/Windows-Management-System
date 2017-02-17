@@ -1,0 +1,74 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  ResizeMode="NoResize"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="703.284" Width="1274.746"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WindowsCMS.MainWindow"
+        Title="机房管理系统登录" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Loaded="Window_Loaded" FontSize="18px" WindowState="Maximized" Closing="Window_Closing">
+    <Grid Background="Black">
+        <Image Source="Image/backjpeg.jpg"/>
+        <Grid Name="gri_inputback" Visibility="Collapsed" Width="520" Height="340" Margin="0,-100,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Opacity="0.1"></Grid>
+        <Grid Background="Black" Name="gri_foreground" Opacity="0.1"></Grid>
+        <Border MouseLeave="Border_MouseLeave">
+            <Grid Name="gri_input" Width="500" Height="320" Margin="0,-100,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Opacity="0.2" MouseEnter="gri_input_MouseEnter">
+                <Grid.Effect>
+                    <DropShadowEffect ShadowDepth="10" Color="Black" Opacity="1" BlurRadius="20">
+                    </DropShadowEffect>
+                </Grid.Effect>
+            </Grid>
+        </Border>
+        <WrapPanel Margin="150,61,0,0" VerticalAlignment="Top">
+            <Image Width="80" Source="Icon/desktop.png"></Image>
+            <StackPanel>
+                <Label FontSize="30" Name="lable_title"  Foreground="White">机房计算机管理系统</Label>
+                <Label Foreground="White">Computers Management System</Label>
+            </StackPanel>
+        </WrapPanel>
+       
+        <TextBox Visibility="Collapsed" Name="txtbox_ContChange" Text="{Binding connecttype}" TextChanged="txtbox_ContChange_TextChanged"></TextBox>
+        <StackPanel MouseEnter="gri_input_MouseEnter" VerticalAlignment="Center" Margin="0,-100,0,0" HorizontalAlignment="Center">
+                <StackPanel>
+                <Border  Style="{StaticResource BorderStyle}">
+                        <WrapPanel>
+                        <Image Width="20" Margin="10,0,0,0" Source="Image/account.png"></Image>
+                        <TextBox Height="35" Margin="10,0,0,0" Name="txtbox_account" Foreground="LightGray" Padding="10px,2px" Width="200" VerticalContentAlignment="Center" Template="{StaticResource CornerTextBox}" KeyDown="txtbox_account_KeyDown" GotFocus="txtbox_account_GotFocus" LostFocus="txtbox_account_LostFocus" TabIndex="0" >学生学号</TextBox>
+                    </WrapPanel>
+                    </Border>
+                <Border Style="{StaticResource BorderStyle}">
+                    <WrapPanel>
+                        <Image Width="25" Margin="10,0,0,0" Source="Image/course.png"></Image>
+                        <ComboBox IsReadOnly="True"  Height="35" Background="Transparent"  Name="txtbox_course"  Style="{StaticResource ComboBoxStyle}" Padding="10px,2px" Width="200" VerticalContentAlignment="Center"  BorderBrush="Gray" BorderThickness="1" TabIndex="1" SelectionChanged="txtbox_course_SelectionChanged" GotFocus="txtbox_course_GotFocus" ></ComboBox>
+                    </WrapPanel>
+                    </Border>
+                <Border  Style="{StaticResource BorderStyle}">
+                        <WrapPanel >
+                        <Image Width="20" Margin="10,0,0,0" Source="Image/password.png"></Image>
+                        <Grid>
+                            <TextBlock Foreground="LightGray" Name="tbl_paswar" VerticalAlignment="Center" Margin="25,0,0,0">用户密码</TextBlock>
+                            <PasswordBox Name="txtbox_pasd" Margin="10,0,0,0" Foreground="LightGray" Padding="10px,2px" Height="35" Width="200"  VerticalContentAlignment="Center" Template="{StaticResource CornerPasswordBox}" KeyDown="txtbox_pasd_KeyDown" GotFocus="txtbox_pasd_GotFocus" LostFocus="txtbox_pasd_LostFocus" TabIndex="2"></PasswordBox>
+                        </Grid>
+                        </WrapPanel>
+                    </Border>
+                        <Label Foreground="Gray" Margin="60,0,0,0" Name="txtbox_meaasge">初始密码为 000000</Label>
+                </StackPanel>
+            
+            <Button  Style="{StaticResource ButtonStyle}" Name="bt_sign" Background="AliceBlue" Height="35" Margin="0,20,0,0" Width="200" Click="bt_sign_Click" TabIndex="3"> 登 录</Button>
+        </StackPanel>
+        <StackPanel  Background="Black" Opacity="0.5" VerticalAlignment="Bottom">
+            <WrapPanel Height="30"  HorizontalAlignment="Center" Margin="0,20,0,20">
+                <Label FontWeight="Black" FontSize="15px" Foreground="White">本台机号：</Label>
+                <Label FontWeight="Black" FontSize="15px" Foreground="White"  Name="label_pcnum" Width="100" Content="{Binding pcnum}"/>
+                <Label FontWeight="Black" FontSize="15px" Foreground="White" Name="label_time" Content="{Binding time}"/>
+                <TextBlock FontWeight="Black" VerticalAlignment="Center" FontSize="15px" Foreground="White"  Name="label_nowtime" Text="{Binding webtime}"/>
+                <Label FontWeight="Black" FontSize="15px" Foreground="White" Margin="20,0,0,0" Content="@2016  理学院软件研发中心"/>
+            </WrapPanel>
+        </StackPanel>
+        <WrapPanel  HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,30,30">
+            <Border Width="15" Height="15" Margin="0,0,50,0" CornerRadius="50" BorderThickness="7.5" ToolTip="{Binding connecttype}" BorderBrush="{Binding forcolor}">
+            </Border>
+            <Image Source="Image/setting.png" Name="bt_setting" ToolTip="更改设置" Visibility="{Binding visible}"  Width="30" Height="30" MouseLeftButtonUp="bt_setting_MouseLeftButtonUp"></Image>
+            <Image Source="Image/closepower.png" Name="bt_shutdown" ToolTip="关闭计算机"  Margin="20,0,0,0"  Width="30" Height="30" MouseLeftButtonUp="bt_shutdown_MouseLeftButtonUp"></Image>
+        </WrapPanel>
+    </Grid>
+
+</Window>
+
