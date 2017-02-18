@@ -9,7 +9,7 @@ class AdminController extends Controller {
 			$this->display();
 		}else{
 			$this->error('非法登录，请通过正确渠道访问',U('Home/Index/index'));
-		}        
+		}      
     }
 	public function logout(){
 		session('adminname',null);

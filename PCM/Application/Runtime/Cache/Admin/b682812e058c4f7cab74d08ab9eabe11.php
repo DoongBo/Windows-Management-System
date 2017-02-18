@@ -3,14 +3,14 @@
 <head>
 	<meta charset=utf-8>
 	<title>机房计算机管理系统</title>
-	<link rel="stylesheet" type="text/css" href="/Public/Css/easyui/easyui.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/easyui/icon.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/myStyle.css">     
+	<link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/icon.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/myStyle.css">     
 </head>
 <body>  
 <div class="easyui-layout" fit="true">
 
-	<div data-options="region:'north'" style="height:80px;background-color:#E0ECFF;background-image:url(/Public/Image/admin_logo.png); background-repeat:no-repeat">
+	<div data-options="region:'north'" style="height:80px;background-color:#E0ECFF;background-image:url(/PCM/Public/Image/admin_logo.png); background-repeat:no-repeat">
     	<div style="position:absolute; right:10px; bottom:5px">你好：<?php echo ($type); echo ($name); ?><a href="<?php echo U('logout');?>" id="logout" class="easyui-linkbutton" style="margin-left:10px"data-options="iconCls:'icon-cancel'">注销</a></div>
     </div>
 	<div data-options="region:'south'" style="height:40px; background-color:#E0ECFF; text-align:center; line-height:35px">
@@ -69,9 +69,9 @@
 		</div>	
 	</div>
 </div>
-<script type="text/javascript" src="/Public/Js/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="/Public/Js/jquery.easyui.min.js"></script>
-<script type="text/javascript" src="/Public/Js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/easyui-lang-zh_CN.js"></script>
 <script>
 function addTab(title, url){
 	if ($('#tt').tabs('exists', title)){

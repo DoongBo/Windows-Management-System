@@ -3,9 +3,9 @@
 <head>
 	<meta charset=utf-8>
 	<title>机房计算机管理系统</title>
-	<link rel="stylesheet" type="text/css" href="/Public/Css/easyui/easyui.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/easyui/icon.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/myStyle.css">
+	<link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/icon.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/myStyle.css">
     
 </head>
 
@@ -18,17 +18,22 @@
         <input class="easyui-textbox" id="logpass"  style="width:100%;height:30px;padding:12px" data-options="required:true,prompt:'登录密码',iconCls:'icon-lock',iconWidth:38,novalidate:true">
     </div>
     <div id="info" style="width:100%;height:20px;margin-bottom:20px;display:none">
-    	<div style="font-size:15px; color:#F00; text-align:center;"><img width="12" height="12" src="/Public/Css/easyui/icons/cancel.png"/>账号或密码错误</div>
+    	<div style="font-size:15px; color:#F00; text-align:center;"><img width="12" height="12" src="/PCM/Public/Css/easyui/icons/cancel.png"/>账号或密码错误</div>
     </div>
     <div>
         <input href="#" id="login" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" style="padding:5px 0px;width:100%;" value="登录"/>
     </div>
 </div>
-<script type="text/javascript" src="/Public/Js/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="/Public/Js/jquery.easyui.min.js"></script>
-<script type="text/javascript" src="/Public/Js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/easyui-lang-zh_CN.js"></script>
 <script>
-   
+    $('#logpass').keypress(function (event) {
+        var c = $(this).val();
+        if (event.keyCode == '13') {
+            alert('您输入的内容是：' + c);
+        }
+    });
     function login()
     {
         $('input.textbox-text').validatebox('enableValidation').validatebox('validate');
@@ -60,13 +65,6 @@ $(document).ready(function(){
 	});
 	$("#login").click(function(){
 	    login();
-	});
-    
-	$("#logpass").bind("keypress", function (event) {
-	    alert("123");
-	    if (event.keyCode == "13") {
-	        alert("123");
-	    }
 	});
 });
 </script>

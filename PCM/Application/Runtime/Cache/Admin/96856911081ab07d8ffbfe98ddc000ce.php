@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 	<title>无标题文档</title>
-    <link rel="stylesheet" type="text/css" href="/Public/Css/easyui/easyui.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/easyui/icon.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/myStyle.css">    
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/icon.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/myStyle.css">    
 </head>
 
 <body>
@@ -22,9 +22,9 @@
    
     		
 
-<script type="text/javascript" src="/Public/Js/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="/Public/Js/jquery.easyui.min.js"></script>
-<script type="text/javascript" src="/Public/Js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/PCM/Public/Js/easyui-lang-zh_CN.js"></script>
 <script type="text/javascript">
 
 	$(function(){

@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>机器使用状态监控</title>
-    <link rel="stylesheet" type="text/css" href="/Public/Css/easyui/easyui.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/easyui/icon.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Css/myStyle.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/easyui/icon.css">
+    <link rel="stylesheet" type="text/css" href="/PCM/Public/Css/myStyle.css">
 </head>
 
 <body>
@@ -41,16 +41,16 @@
     <table border="1">
         <tr>
             <?php if(is_array($list)): $i = 0; $__LIST__ = array_slice($list,0,9,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><td width="120px" height="120px">
-                    <img src="/Public/Upload/<?php echo ($vo["PCM_ScreenJpgsrc"]); ?>" width="120" height="90" title="<?php echo ($vo["PCM_AppRecord"]); ?>"><br />
+                    <img src="/PCM/Public/Upload/<?php echo ($vo["PCM_ScreenJpgsrc"]); ?>" width="120" height="90" title="<?php echo ($vo["PCM_AppRecord"]); ?>"><br />
                     <?php echo ($vo["PCM_Num"]); ?><br />
                     <?php echo ($vo["PCM_UserNum"]); ?><br />
                     <?php echo ($vo["User_Name"]); ?>
                 </td><?php endforeach; endif; else: echo "" ;endif; ?>
         </tr>
     </table>
-    <script type="text/javascript" src="/Public/Js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="/Public/Js/jquery.easyui.min.js"></script>
-    <script type="text/javascript" src="/Public/Js/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="/PCM/Public/Js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="/PCM/Public/Js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/PCM/Public/Js/easyui-lang-zh_CN.js"></script>
     <script>
         function addElementLi() {
             var ul = document.getElementById("parentUl");
