@@ -64,17 +64,23 @@ namespace WindowsCMS
             InitialTray();
 
             onlinejpg.ToolTip = MessageClass.PCNum;
-            MessageClass.signid = OperateHidden.InsertSignRecord();//插入新记录
-            SetConent();
-            OperateHidden.UpdateScreen(false);//获取一次 截屏和进程
-
+            if (SqlHelper.OpenConnection())
+            {
+                MessageClass.signid = OperateHidden.InsertSignRecord();//插入新记录
+                SetConent();
+                OperateHidden.UpdateScreen(false);//获取一次 截屏和进程
+                GetNotice();
+            }
             mythread1 = new Thread(new ParameterizedThreadStart(ThreadTest1));
             mythread1.IsBackground = true;
             mythread1.Start();
-            mythread2 = new Thread(new ParameterizedThreadStart(ThreadTest2));
-            mythread2.IsBackground = true;
-            mythread2.Start();
-            GetNotice();
+
+            if (SqlHelper.OpenConnection())
+            {
+                mythread2 = new Thread(new ParameterizedThreadStart(ThreadTest2));
+                mythread2.IsBackground = true;
+                mythread2.Start();
+            }
             
         }
         //private void SetRecord()
@@ -87,6 +93,7 @@ namespace WindowsCMS
         public DataTable noticetable = new DataTable();
         private void GetNotice()
         {
+
             string cmdtxt = "select Notice_Id,Notice_Title,Notice_Sender, Notice_Time,Notice_Content  from t_notice  order by Notice_Id desc limit 0,5";
             noticetable = SqlHelper.ExecuteDataTable(cmdtxt);
             dataGrid1.ItemsSource = noticetable.DefaultView;
@@ -142,14 +149,17 @@ namespace WindowsCMS
         }
         private void CheckOrder(int chose)
         {
-            switch(chose)
+            if (SqlHelper.OpenConnection())
             {
-                case 1: record.isexcit = "lock"; break;
-                case 2: record.isexcit = "closelock"; break;
-                case 3: record.isexcit = "shutdumn"; break;
-                case 4: record.isexcit = "teacher"; break;
-                case 5: record.isexcit = "closeteacher"; break;
-                default:break;
+                switch (chose)
+                {
+                    case 1: record.isexcit = "lock"; break;
+                    case 2: record.isexcit = "closelock"; break;
+                    case 3: record.isexcit = "shutdumn"; break;
+                    case 4: record.isexcit = "teacher"; break;
+                    case 5: record.isexcit = "closeteacher"; break;
+                    default: break;
+                }
             }
         }
         private static LockScreen lockform = new LockScreen();
@@ -161,7 +171,6 @@ namespace WindowsCMS
             //条件满足时，一直执行    
             while (!isclose)
             {
-
                 OperateHidden.Monitor_SMON();
                 OperateHidden.UpdateScreen(false);
                 Thread.Sleep(300000);
@@ -298,12 +307,12 @@ namespace WindowsCMS
          
                 switch (i)
                 {
-                    case 0: httpurl = "http://59.72.194.42:81/Notice.aspx"; break;
-                    case 1: httpurl = "http://59.72.194.42:81/Record.aspx"; break;
-                    case 2: httpurl = "http://59.72.194.42:81/Download.aspx"; break;
-                    case 3: httpurl = "http://59.72.194.42:81/RoomOrder.aspx"; break;
+                    case 0: httpurl = "http://59.72.212.7:60/Notice.aspx"; break;
+                    case 1: httpurl = "http://59.72.212.7:60/Record.aspx"; break;
+                    case 2: httpurl = "http://59.72.212.7:60/Download.aspx"; break;
+                    case 3: httpurl = "http://59.72.212.7:60/RoomOrder.aspx"; break;
                     case 5: httpurl = "http://59.72.212.6/luntan/portal.php"; break;
-                    case 6: httpurl = "http://59.72.194.42:81/"; break;
+                    case 6: httpurl = "http://59.72.212.7:60/"; break;
                     default: break;
                 }
                 System.Diagnostics.Process.Start(httpurl);
@@ -350,10 +359,13 @@ namespace WindowsCMS
 
         private void btresatart_Click(object sender, RoutedEventArgs e)
         {
-            SqlHelper.ExecuteNonQuery("update t_pcmessage set PCM_NowState=1 where PCM_Num='" + MessageClass.PCNum + "'");
-            SqlHelper.ExecuteNonQuery("update t_signrecord set Record_HasExit=1 where Record_Id=" + MessageClass.recordid);
-            MessageClass.canclose = true;
-            this.Close();
+            if (System.Windows.MessageBox.Show("确定注销本用户并重新登录？你正在运行的程序将不会被关闭！", "确定注销？", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                SqlHelper.ExecuteNonQuery("update t_pcmessage set PCM_NowState=1 where PCM_Num='" + MessageClass.PCNum + "'");
+                SqlHelper.ExecuteNonQuery("update t_signrecord set Record_HasExit=1 where Record_Id=" + MessageClass.recordid);
+                MessageClass.canclose = true;
+                this.Close();
+            }
         }
 
 

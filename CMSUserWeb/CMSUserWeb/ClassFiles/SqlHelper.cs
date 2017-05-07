@@ -5,14 +5,14 @@ using System.Text;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
-using System.Windows;
+
 using MySql.Data.MySqlClient;
 namespace CRUDTest1
 {
     public static class SqlHelper
  
     {
-        public static readonly string connstr = "server=59.72.212.6;uid=PCMMANAGER;password=rjyfzx;Database=DB_PCM;Charset=utf8;Connect Timeout =3;";
+        public static readonly string connstr = "server=59.72.212.7;uid=PCMMANAGER;password=rjyfzx;Database=DB_PCM;Charset=utf8;Connect Timeout =3;";
         public static bool  OpenConnection()
         {
             try { 

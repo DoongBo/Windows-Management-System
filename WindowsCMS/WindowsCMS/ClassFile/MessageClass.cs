@@ -12,6 +12,7 @@ namespace WindowsCMS.ClassFile
 {
    public static class MessageClass
     {
+       public static  string UnConnetedStr="000000";
        public static string signid = "-1";
        public static bool sqlconnect = false;
        public static bool hasmht = false;
@@ -23,7 +24,16 @@ namespace WindowsCMS.ClassFile
        public static string MacAddress= "";
        public static string Course = "";
        public static string SignTime = "";
-       public static string NowTime = "";
+       public static string NowTime
+       {
+           get
+           {
+               if (SqlHelper.OpenConnection())
+                   return SqlHelper.ExecuteScalar("select now()").ToString();
+               else return DateTime.Now.ToString();
+           }
+           set { }
+       }
        public static int recordid = -1;
        public static void  ClearValue()
        { 
@@ -35,7 +45,7 @@ namespace WindowsCMS.ClassFile
          MacAddress= "";
          Course = "";
          SignTime = "";
-         NowTime = "";
+         NowTime = SqlHelper.ExecuteScalar("select now()").ToString();
          recordid = 0;
        }
        public static bool CheckMacFromSql()//查找数据库中有没有本台电脑的MAC地址记录
@@ -51,8 +61,7 @@ namespace WindowsCMS.ClassFile
            {
                PCNum = selresult.Rows[0]["PCM_Num"].ToString();
                RoomName = selresult.Rows[0]["PCM_RoomName"].ToString();
-               string nowtime = SqlHelper.ExecuteScalar("select now()").ToString();
-               NowTime = nowtime;
+               
                return true;
            }
            }

@@ -12,16 +12,18 @@ namespace CRUDTest1
     public static class SqlHelper
  
     {
-        public static readonly string connstr = "server=59.72.212.6;uid=PCMMANAGER;password=rjyfzx;Database=DB_PCM;Charset=utf8;Connect Timeout =3;";
+        public static readonly string connstr = "server=59.72.212.7;uid=root;password=ruanjianyanfazhongxin;Database=DB_PCM;Charset=utf8;Connect Timeout =3;";
         public static bool  OpenConnection()
         {
-            try { 
-            using (MySqlConnection conn = new MySqlConnection(connstr))
+            try
             {
-                conn.Open();
-                return true;
+                using (MySqlConnection conn = new MySqlConnection(connstr))
+                {
+                    conn.Open();
+                    return true;
+                }
             }
-            }catch
+            catch
             {
                 return false;
             }

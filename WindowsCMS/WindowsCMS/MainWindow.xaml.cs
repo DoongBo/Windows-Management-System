@@ -100,7 +100,7 @@ namespace WindowsCMS
              hook.Hook_Clear();
              hook.Dispose();
             hook.Hook_Start();
-            this.Topmost = true;
+            //this.Topmost = true;
           
 
             if (!SqlHelper.OpenConnection())
@@ -303,9 +303,11 @@ namespace WindowsCMS
         {
             if (!SqlHelper.OpenConnection())
             {
-                if (accountnum == "666666" && password == "666666")
+                if (accountnum == MessageClass.UnConnetedStr && password == MessageClass.UnConnetedStr)
                 {
-                    this.Close();
+                    MessageClass.UserName = "本地用户";
+                    MessageClass.UserNum = accountnum;
+                    MessageClass.Course = txtbox_course.SelectedValue.ToString();
                     return true;
                 }
                 else return false;
@@ -317,6 +319,7 @@ namespace WindowsCMS
                 new MySqlParameter("@User_PSD",password)});
             if(selecttable.Rows.Count>0)
             {
+                //从学院名单中查找
                 MessageClass.UserName = selecttable.Rows[0]["User_Name"].ToString();
                 MessageClass.UserNum = selecttable.Rows[0]["User_Num"].ToString();
                 MessageClass.Course = txtbox_course.SelectedValue.ToString();
@@ -325,6 +328,7 @@ namespace WindowsCMS
             }
             else
             {
+                //从软件中心的培训名单中查找
                 selectxt = "select User_Num,User_Name from T_User where User_Num=@User_Num";
                 selecttable = SqlHelper.SqlExecuteDataTable(selectxt, new SqlParameter[] { new SqlParameter("@User_Num",accountnum)});
                 if (selecttable.Rows.Count > 0)
@@ -362,7 +366,7 @@ namespace WindowsCMS
                 txtbox_account.Text = "";
                 txtbox_account.Foreground = Brushes.White;
             }
-            txtbox_meaasge.Content = "初始密码为 000000";
+            txtbox_meaasge.Content = "初始密码为 " + MessageClass.UnConnetedStr;
             txtbox_meaasge.Foreground = Brushes.Gray;
             txtbox_account.SelectAll();
         }
@@ -371,7 +375,7 @@ namespace WindowsCMS
         {
             if(txtbox_pasd.Password.Length<=0)
                 tbl_paswar.Text = "";
-            txtbox_meaasge.Content = "初始密码为 000000";
+            txtbox_meaasge.Content = "初始密码为 " + MessageClass.UnConnetedStr;
             txtbox_meaasge.Foreground = Brushes.Gray;
             txtbox_pasd.SelectAll();
         }
@@ -448,13 +452,16 @@ namespace WindowsCMS
         {
             if(Convert.ToString(txtbox_course.SelectedValue)=="课内实验")
             {
-               
+                if (SqlHelper.OpenConnection())
+                {
                     CourseChose win = new CourseChose();
                     win.ShowDialog();
                     txtbox_course.Items.Add(MessageClass.Course);
                     txtbox_course.SelectedIndex = txtbox_course.Items.Count - 1;
+                }
                 
             }
+
             txtbox_pasd.Focus();
 
         }

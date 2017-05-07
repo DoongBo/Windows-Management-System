@@ -9,35 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - 机房管理站点</title>
 
-    <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
+    <asp:PlaceHolder runat="server">        
+        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+   <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
 <body>
     <form runat="server">
-        <asp:ScriptManager runat="server">
-            <Scripts>
-                <%--若要了解有关在 ScriptManager 中绑定脚本的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--框架脚本--%>
-                <asp:ScriptReference Name="MsAjaxBundle" />
-                <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
-                <asp:ScriptReference Name="respond" />
-                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-                <asp:ScriptReference Name="WebFormsBundle" />
-                <%--站点脚本--%>
-            </Scripts>
-        </asp:ScriptManager>
+
 
        <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -47,16 +28,16 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
               <li class="dropdown">
-              <a  href="../Notice">广而告知</a>
+              <a  href="../Notice.aspx">广而告知</a>
             </li>
             <li class="dropdown">
-              <a  href="../Record">登录记录</a>
+              <a  href="../Record.aspx">登录记录</a>
             </li>
             <li>
-             <a href="../Download">下载文件</a>
+             <a href="../Download.aspx">下载文件</a>
             </li>
             <li class="dropdown">
-              <a href="../RoomOrder">机房排课 </a>
+              <a href="../RoomOrder.aspx">机房排课 </a>
             </li>
               <li>
              <a  href="../Account/feedback.aspx">意见反馈</a>
@@ -69,7 +50,7 @@
                 <%if(Session["UserNum"]!=null&&Session["UserNum"].ToString()!="") {%>
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="username">
                   <%=Session["UserClass"].ToString()+" "+  Session["UserName"].ToString() %>
-                  <span class="caret"></span></a>
+                 
               <ul class="dropdown-menu" aria-labelledby="username"  style="width:100px">
                 <li><a href="../Account/LogOut.aspx">注销</a></li>
               </ul>

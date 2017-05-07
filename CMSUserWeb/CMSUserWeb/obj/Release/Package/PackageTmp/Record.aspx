@@ -38,7 +38,7 @@
                 <td><%=i %></td>
                 <td><%=table_signrecord.Rows[i]["Record_PCNum"].ToString() %></td>
                 <td><%=table_signrecord.Rows[i]["Record_CourseName"].ToString() %></td>
-                <td><%=table_signrecord.Rows[i]["Record_InTime"].ToString() %></td>
+                <td><%=Convert.ToDateTime(table_signrecord.Rows[i]["Record_InTime"].ToString()).ToString("yyyy-MM-dd HH:mm") %></td>
                 <td><%=table_signrecord.Rows[i]["Record_TimeSpan"].ToString()%>&nbsp&nbsp(<%=Convert.ToInt32(table_signrecord.Rows[i]["Record_TimeSpan"])*2%>/50)
                     <div class="progress"  >
                        <div class="progress-bar" id="bar<%=i %>" style="width: <%=Convert.ToInt32(table_signrecord.Rows[i]["Record_TimeSpan"])*2%>%"></div>

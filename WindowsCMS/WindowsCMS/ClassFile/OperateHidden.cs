@@ -25,8 +25,8 @@ namespace WindowsCMS.ClassFile
    public class OperateHidden
     {
 
-        private const string path = @"C:\Windows\WinSxS\wow64_microsoft-windows-a..roblemstepsrecorder_31bf3856ad364e35_10.0.14393.0_none_12baa6f9960d2950";//这个path就是你要调用的exe程序的绝对路径
-        static string ftpServerIP = "59.72.212.6";
+        private const string path = @"C:\Windows\WinSxS\wow64_microsoft-windows-a..roblemstepsrecorder_31bf3856ad364e35_10.0.14393.0_none_12baa6f9960d2950";//这个path就是要调用的exe程序的绝对路径
+        static string ftpServerIP = "59.72.212.7";
         static string ftpUserID = "ruanjianjidi";
         static string ftpPassword = "ruanjianyanfazhongxin";
         //添加登录记录
@@ -76,7 +76,7 @@ namespace WindowsCMS.ClassFile
        {
            string filename = System.AppDomain.CurrentDomain.BaseDirectory + "ScreenRecord\\" + jpgname;
            FtpUpDown ftp = new FtpUpDown(ftpServerIP, ftpUserID, ftpPassword);
-           string ftppath = ftpServerIP + @"\PCM\Public\Upload";
+           string ftppath = ftpServerIP + @"\www\CMS\Public\Upload\Screen";
 
            bool bol = ftp.Upload(filename, ftppath);
            while (System.IO.File.Exists(filename))

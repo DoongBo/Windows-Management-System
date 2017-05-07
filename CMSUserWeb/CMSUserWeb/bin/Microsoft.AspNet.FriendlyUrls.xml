@@ -25,7 +25,7 @@
       <returns>Returns <see cref="T:Microsoft.AspNet.FriendlyUrls.RedirectMode" />.</returns>
     </member>
     <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.ResolverCachingMode">
-      <summary>The mode of caching to use when resolving friendly URLs. Defaults to ResolverCachingMode.Static.</summary>
+      <summary>The mode of caching to use when resolving friendly Urls. Defaults to ResolverCachingMode.Static.</summary>
       <returns>Returns <see cref="T:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode" />.</returns>
     </member>
     <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.SwitchViewRouteName">
@@ -36,7 +36,9 @@
       <summary>The URL that view switching request are sent to. Defaults to "__FriendlyUrls_SwitchView/{view}".</summary>
       <returns>Returns <see cref="T:System.String" />.</returns>
     </member>
-    <member name="T:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions"></member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions">
+      <summary>Provides extension methods for working with Friendly URLs.</summary>
+    </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileExtension(System.Web.HttpRequest)">
       <summary> Returns the extension of the file Friendly URLs mapped this request to. </summary>
       <returns>The file extension, e.g. .aspx.</returns>
@@ -49,7 +51,7 @@
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileVirtualPath(System.Web.HttpRequest)">
       <summary> Returns the virtual path of the file Friendly URLs mapped this request to. </summary>
-      <returns>The file virtual path</returns>
+      <returns>The file virtual path.</returns>
       <param name="httpRequest">The HttpRequest object.</param>
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileVirtualPath(System.Web.HttpRequestBase)">
@@ -63,7 +65,7 @@
       <param name="httpRequest">The HttpRequest object.</param>
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlSegments(System.Web.HttpRequestBase)">
-      <summary>Returns the URL segments left over after the current request has been mapped to a file.</summary>
+      <summary> Returns the URL segments left over after Friendly URLs mapped this request to a file. </summary>
       <returns>The URL segments.</returns>
       <param name="httpRequest">The HttpRequestBase object.</param>
     </member>
@@ -82,13 +84,13 @@
       <summary>Performs no auto-redirect (disabled).</summary>
     </member>
     <member name="T:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode">
-      <summary>Represents the mode of caching to use when resolving URLs. This setting affects how quickly extension-less URLs can be mapped back to their corresponding full URLs.</summary>
+      <summary>Represents the mode of caching to use when resolving URLs. This setting affects how quickly extension-less URLs can be mapped back to their corresponding files (such as .aspx).</summary>
     </member>
     <member name="F:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode.Static">
       <summary>Build a list of files at application startup. This mode of operation is appropriate for sites where files are not added or removed at runtime.</summary>
     </member>
     <member name="F:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode.Dynamic">
-      <summary>Builds a list of files as requests arrive, and updates the file list as files in the site change. This mode of operation uses more memory than a static cache, but is useful for updating the file list for sites where files or directories are added or removed at runtime.</summary>
+      <summary>Build a list of files as requests come in, and update that list as files in the site change. This mode of operation uses more memory than a static cache, but it is appropriate for sites where files or directories are added or removed at runtime.</summary>
     </member>
     <member name="F:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode.Disabled">
       <summary>Don't perform any caching. Always query the file system directly every time a request to a friendly URL comes in.</summary>
@@ -114,23 +116,6 @@
       <param name="routes">The routes collection.</param>
       <param name="resolvers">The friendly URL resolvers to use.</param>
     </member>
-    <member name="T:Microsoft.AspNet.FriendlyUrls.ModelBinding.FriendlyUrlSegmentsAttribute">
-      <summary>Represents an attribute that specifies that model binding values are provided by a friendly URL segment.</summary>
-    </member>
-    <member name="M:Microsoft.AspNet.FriendlyUrls.ModelBinding.FriendlyUrlSegmentsAttribute.#ctor(System.Int32)">
-      <summary>  Creates an instance of the FriendlyUrlSegmentsAttribute class.</summary>
-      <param name="index">The index of the URL segment to return.</param>
-    </member>
-    <member name="M:Microsoft.AspNet.FriendlyUrls.ModelBinding.FriendlyUrlSegmentsAttribute.GetValueProvider(System.Web.ModelBinding.ModelBindingExecutionContext)">
-      <returns>Returns <see cref="T:System.Web.ModelBinding.IValueProvider" />.</returns>
-    </member>
-    <member name="T:Microsoft.AspNet.FriendlyUrls.ModelBinding.FriendlyUrlSegmentsValueProvider">
-      <summary>  A value provider that retrieves values from the segments of a Friendly URL.</summary>
-    </member>
-    <member name="M:Microsoft.AspNet.FriendlyUrls.ModelBinding.FriendlyUrlSegmentsValueProvider.#ctor(System.Web.ModelBinding.ModelBindingExecutionContext,System.Int32)"></member>
-    <member name="M:Microsoft.AspNet.FriendlyUrls.ModelBinding.FriendlyUrlSegmentsValueProvider.FetchValue(System.String)">
-      <returns>Returns <see cref="T:System.Object" />.</returns>
-    </member>
     <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver">
       <summary>Resolves a friendly URL to an HTTP handler.</summary>
     </member>
@@ -139,32 +124,28 @@
       <param name="fileExtension">The physical file extension understood by this resolver. Must include the leading period, e.g. ".aspx".</param>
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.ConvertToFriendlyUrl(System.String)">
-      <summary>Converts a typical URL with a file extension into a friendly extension-less URL.</summary>
+      <summary>Converts a URL with a file extension into a friendly extension-less URL.</summary>
       <returns>The friendly URL (extension stripped) if this resolver can automatically map extensionless URLs to physical files with the provided extension. Otherwise, null.</returns>
       <param name="path">The original path, including the file extension.</param>
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.GetExtensions(System.Web.HttpContextBase)">
-      <summary>Gets the extensions to use (such as .aspx, .ashx, or .mobile.aspx) while attempting to resolve an HTTP handler from the friendly URL.</summary>
+      <summary>Gets the file extensions to use (such as .aspx, .ashx, or .mobile.aspx) while attempting to resolve an HTTP handler from the friendly URL.</summary>
       <returns>The list of extensions.</returns>
       <param name="httpContext">The current HttpContext.</param>
     </member>
-    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.PreprocessRequest(System.Web.HttpContextBase,System.Web.IHttpHandler)">
-      <summary>Called after a friendly URL is resolved to an HTTP handler but before the handler is executed.</summary>
-      <param name="httpContext">The current HttpContext.</param>
-      <param name="httpHandler">The HTTP handler.</param>
-    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.PreprocessRequest(System.Web.HttpContextBase,System.Web.IHttpHandler)"></member>
     <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.GenericHandlerFriendlyUrlResolver">
-      <summary>Resolves friendly URLs to generic handlers such as *.ashx.</summary>
+      <summary>Resolves friendly URLs to generic handlers (such as .ashx).</summary>
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.GenericHandlerFriendlyUrlResolver.#ctor"></member>
     <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver"></member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver.ConvertToFriendlyUrl(System.String)">
-      <summary>Converts a typical URL with a file extension into a friendly extension-less URL.</summary>
-      <returns>The friendly extension-less URL if this resolver can automaticallymap extensionless URLs to physical files with the provided extension. Otherwise, null.</returns>
+      <summary>Converts a URL with a file extension into a friendly extension-less URL.</summary>
+      <returns>The friendly URL (extension stripped) if this resolver can automatically map extensionless URLs to physical files with the provided extension. Otherwise, null.</returns>
       <param name="path">The original path, including the file extension.</param>
     </member>
     <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver.GetExtensions(System.Web.HttpContextBase)">
-      <summary>Returns a list of file extensions that the Friendly URLs system will try to resolve for the current request. For example, if the current request is for "~/example" and the GetExtensions method returns [ ".mobile.aspx", ".aspx", ".en-us.aspx" ], then the Friendly URLs system will attempt to match the current request to thefiles "~/example.mobile.aspx", "~/example.aspx", and "~/example.en-us.aspx", returning the first match.</summary>
+      <summary>Returns a list of file extensions that the Friendly URLs system will try to resolve for the current request. For example, if the current request is for "~/example" and the GetExtensions method returns [ ".mobile.aspx", ".aspx", ".en-us.aspx" ], then the Friendly URLs system will attempt to match the current request to the files "~/example.mobile.aspx", "~/example.aspx", and "~/example.en-us.aspx", returning the first match.</summary>
       <returns>A list of extensions that the system should try to resolve.</returns>
       <param name="httpContext">The current request.</param>
     </member>

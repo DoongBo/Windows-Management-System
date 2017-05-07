@@ -82,3 +82,17 @@ E:\GitHub\CMSUserWeb\CMSUserWeb\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAcc
 E:\GitHub\CMSUserWeb\CMSUserWeb\obj\Release\CMSUserWeb.dll
 E:\GitHub\CMSUserWeb\CMSUserWeb\obj\Release\CMSUserWeb.pdb
 E:\GitHub\CMSUserWeb\CMSUserWeb\obj\Release\CMSUserWeb.csprojResolveAssemblyReference.cache
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\CMSUserWeb.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\CMSUserWeb.pdb
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\Antlr3.Runtime.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\MySql.Data.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\Owin.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\Antlr3.Runtime.pdb
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\obj\Release\CMSUserWeb.dll
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\obj\Release\CMSUserWeb.pdb
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\obj\Release\CMSUserWeb.csprojResolveAssemblyReference.cache
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\CMSUserWeb.dll.config
+E:\GitHubLocalProperty\Windows-Management-System\CMSUserWeb\CMSUserWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll

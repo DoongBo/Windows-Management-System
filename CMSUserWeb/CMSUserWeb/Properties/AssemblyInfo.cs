@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 // 将 ComVisible 设置为 false 会使此程序集中的类型
 // 对 COM 组件不可见。如果需要
 // 从 COM 访问此程序集中的某个类型，请针对该类型将 ComVisible 特性设置为 true。
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于 typelib 的 ID
 [assembly: Guid("0bdfa35e-36ac-4c06-bb11-ec4956f71c34")]

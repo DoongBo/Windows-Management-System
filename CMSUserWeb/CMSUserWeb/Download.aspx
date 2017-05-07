@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="文件下载" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Download.aspx.cs" Inherits="CMSUserWeb.Download" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h3 style="margin-top:50px;margin-bottom:50px">你需要的课件都在这里</h3>
+    <h3 style="margin-top:100px;margin-bottom:50px">你需要的课件都在这里</h3>
     <div class="row">
-        <%string owner = ""; for (int j = 0; j < filetable.Rows.Count; ){
+        <%string owner = ""; if(filetable!=null) for (int j = 0; j < filetable.Rows.Count; ){
               owner = filetable.Rows[j]["File_Ownner"].ToString();%>
         <div class="col-md-4" style="padding: 10px">
             <div class="panel panel-primary">

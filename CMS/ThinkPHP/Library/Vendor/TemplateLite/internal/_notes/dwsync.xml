@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="compile.compile_config.php" server="59.72.212.6/PCM/" local="131375974538474894" remote="131237810400000000" Dst="0" />
+<file name="compile.compile_custom_block.php" server="59.72.212.6/PCM/" local="131375974538704907" remote="131237810400000000" Dst="0" />
+<file name="compile.compile_custom_function.php" server="59.72.212.6/PCM/" local="131375974538704907" remote="131237810400000000" Dst="0" />
+<file name="compile.compile_if.php" server="59.72.212.6/PCM/" local="131375974538784911" remote="131237810400000000" Dst="0" />
+<file name="compile.generate_compiler_debug_output.php" server="59.72.212.6/PCM/" local="131375974538994923" remote="131237810400000000" Dst="0" />
+<file name="compile.include.php" server="59.72.212.6/PCM/" local="131375974539004924" remote="131237810400000000" Dst="0" />
+<file name="compile.parse_is_expr.php" server="59.72.212.6/PCM/" local="131375974539014925" remote="131237810400000000" Dst="0" />
+<file name="compile.section_start.php" server="59.72.212.6/PCM/" local="131375974539354944" remote="131237810400000000" Dst="0" />
+<file name="debug.tpl" server="59.72.212.6/PCM/" local="131375974539354944" remote="131237810400000000" Dst="0" />
+<file name="template.build_dir.php" server="59.72.212.6/PCM/" local="131375974539354944" remote="131237810400000000" Dst="0" />
+<file name="template.config_loader.php" server="59.72.212.6/PCM/" local="131375974539694963" remote="131237810400000000" Dst="0" />
+<file name="template.destroy_dir.php" server="59.72.212.6/PCM/" local="131375974539684963" remote="131237810400000000" Dst="0" />
+<file name="template.fetch_compile_include.php" server="59.72.212.6/PCM/" local="131375974539704964" remote="131237810400000000" Dst="0" />
+<file name="template.generate_debug_output.php" server="59.72.212.6/PCM/" local="131375974539884974" remote="131237810400000000" Dst="0" />
+</dwsync>

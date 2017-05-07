@@ -35,12 +35,22 @@ namespace CMSUserWeb
             {
                 nowterm = termtable.Rows[0]["Term_Name"].ToString();
                 startterm = termtable.Rows[0]["Term_StartDate"].ToString();
+               
                 endterm = termtable.Rows[0]["Term_EndDate"].ToString();
+                try
+                {
+                    startterm = Convert.ToDateTime(startterm).ToString("yyyy-MM-dd");
+                    endterm = Convert.ToDateTime(endterm).ToString("yyyy-MM-dd");
+                }
+                catch
+                {
+
+                }
             }
             else
             {
-                startterm = "2016/1/1 0:0:0";
-                endterm = "2100/1/1 0:0:0";
+                startterm = "2017-1-1 0:0:0";
+                endterm = "2100-1-1 0:0:0";
             }
             username = Session["UserName"].ToString();
             usernum = Session["UserNum"].ToString();

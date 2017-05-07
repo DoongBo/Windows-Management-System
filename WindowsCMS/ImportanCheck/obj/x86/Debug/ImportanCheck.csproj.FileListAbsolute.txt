@@ -23,3 +23,16 @@ E:\GitHubLocalProperty\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.Prop
 E:\GitHubLocalProperty\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.csproj.GenerateResource.Cache
 E:\GitHubLocalProperty\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.exe
 E:\GitHubLocalProperty\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.pdb
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\bin\x86\Debug\ImportanCheck.exe.config
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\bin\x86\Debug\ImportanCheck.exe
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\bin\x86\Debug\ImportanCheck.pdb
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.csprojResolveAssemblyReference.cache
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\MainWindow.baml
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\MainWindow.g.cs
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\App.g.cs
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck_MarkupCompile.cache
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.g.resources
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.Properties.Resources.resources
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.csproj.GenerateResource.Cache
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.exe
+E:\GitHubLocalProperty\Windows-Management-System\WindowsCMS\ImportanCheck\obj\x86\Debug\ImportanCheck.pdb

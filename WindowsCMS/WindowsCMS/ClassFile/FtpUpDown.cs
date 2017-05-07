@@ -113,11 +113,11 @@ namespace WindowsCMS.ClassFile
                     // 关闭两个流
                     strm.Close();
                     fs.Close();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Upload Error");
-                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Upload Error");
+            }
             }
             catch (Exception ex)
             {

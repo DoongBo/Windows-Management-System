@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>当前在线学生</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="__CSS__/easyui/icon.css">
+    <link rel="stylesheet" type="text/css" href="__CSS__/myStyle.css">    
+</head>
+
+<body>
+    <table id="dg" ></table>
+    <div id="tb">
+    	&nbsp;条件查找：
+		<select id="types" class="easyui-combobox" >
+       		<option value="Record_PCNum">机器号</option>
+            <option value="Record_UserNum">学号</option>
+            <option value="Record_RoomName">机房名</option>
+            <option value="Record_InTime">登录时间</option>
+    	</select>
+     	<input id="searchs" class="easyui-textbox">
+		<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="doSearch()">查询</a>
+   
+	</div>
+   
+    		
+
+<script type="text/javascript" src="__JS__/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="__JS__/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="__JS__/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript">
+		
+	$(function(){
+		$('#dg').datagrid({
+			url: "{:U('getonline')}",
+			method: 'post',
+			title: '当前在线学生  {$row}  人',
+			iconCls: 'icon-save',
+			fit: true,
+			fitColumns: true,
+			singleSelect: true,
+			pagination:true,
+			pageList: [30,50,80,100],
+			pageSize:50,
+			toolbar:"#tb",
+			rownumbers:true,
+			columns:[[
+				{field:'Record_RoomName',title:'机房名',width:10},
+				{field:'Record_PCNum',title:'机器号',width:20},
+				{field:'Record_CourseName',title:'课程名',width:20},
+				{field:'Record_Num',title:'学号',width:30},
+				{field:'Record_Name',title:'姓名',width:20},
+				{field:'Record_InTime',title:'登录时间',width:30},
+				{field:'Record_OutTime',title:'登出时间',width:30},
+				{field:'Record_RecordMHTsrc',title:'详情',width:20},
+			]],
+			onHeaderContextMenu: function(e, field){
+				e.preventDefault();
+				if (!cmenu){
+					createColumnMenu();
+				}
+				cmenu.menu('show', {
+					left:e.pageX,
+					top:e.pageY
+				});
+			}
+		});
+	});
+	var cmenu;
+	function createColumnMenu(){
+		cmenu = $('<div/>').appendTo('body');
+		cmenu.menu({
+			onClick: function(item){
+				if (item.iconCls == 'icon-ok'){
+					$('#dg').datagrid('hideColumn', item.name);
+					cmenu.menu('setIcon', {
+						target: item.target,
+						iconCls: 'icon-empty'
+					});
+				} else {
+					$('#dg').datagrid('showColumn', item.name);
+					cmenu.menu('setIcon', {
+						target: item.target,
+						iconCls: 'icon-ok'
+					});
+				}
+			}
+		});
+		var fields = $('#dg').datagrid('getColumnFields');
+		for(var i=0; i<fields.length; i++){
+			var field = fields[i];
+			var col = $('#dg').datagrid('getColumnOption', field);
+			cmenu.menu('appendItem', {
+				text: col.title,
+				name: field,
+				iconCls: 'icon-ok'
+			});
+		}
+	}
+	function doSearch(){
+		$('#dg').datagrid('load', { 
+		 	"types": $('#types').combobox('getValue'), 
+			"searchs": $('#searchs').val() 
+		}); 
+    }
+	
+    
+</script>
+</body>
+</html>

@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <div class="list-group">
+                <div class="list-group" style="max-height:500px;overflow:auto">
                     <div class="list-group-item active">
                         所有通知
                     </div>
